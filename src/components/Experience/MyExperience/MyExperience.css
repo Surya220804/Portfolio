@@ -1,0 +1,60 @@
+.myexperience-wrapper{
+    display: flex;
+    animation: fadeInUp 0.8s ease-out forwards;
+    transform: translateY(50px);
+
+}
+.experience-leftside{
+   width:720px;
+   color: white;
+}
+.experience-rightside{
+    max-width: 600px;
+    border: 2px solid blue;
+    line-height: 1.7;
+}
+.intern-company-detail,.intern-role-duration{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+.intern-description li{
+    list-style: none;
+     text-align: left;
+}
+.experience-center{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.dot{
+    display: block;
+    color: gray;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+.y-axis-line{
+     display: block;
+    color: rgba(128, 128, 128, 0.73);
+    background-color:grey;
+    height: 200px;
+    width: 3px;
+    position: relative;
+    top: 3px;
+     left:5px;    
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeSlideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,66 @@
+
+.myeducation-top,.myeducation-bottom{
+    display: flex;
+    margin: 20px 100px;
+     animation: fadeInUp 0.8s ease-out forwards;
+    transform: translateY(50px);
+    
+}
+
+.myeducation-bottomleft{
+    width: 600px;
+}
+.myeducation-topright{
+    width: 590px;
+}
+
+.myeducation-topleft,.myeducation-bottomright{
+    border: 2px solid blue;
+    height: 100px;
+}
+.myeducation-topleft{
+    width: 600px;
+}
+.myeducation-bottomright{
+    width: 600px;
+}
+.clg-name-duration,.schl-name-duration{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px;
+}
+.clg-course,.schl-course{
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+.myeducation-topcenter,.myeducation-bottomcenter{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.myeducation-topcenter{
+    margin: 0px 20px;
+}
+.myeducation-bottomcenter{
+    margin: 0px 0px 0px 12px;
+}
+.dot-education{
+    display: block;
+    color: gray;
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+.y-axis-line-education{
+     display: block;
+    color: rgba(128, 128, 128, 0.73);
+    background-color:grey;
+    height: 100px;
+    width: 3px;
+    position: relative;
+    top: 3px;
+     left:5px;    
+}

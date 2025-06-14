@@ -1,0 +1,59 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(154, 192, 255, 0.4);
+     width:70%;
+     margin: 10px auto;
+}
+.header-left {
+    font-size: large;
+    color: blue;
+}
+.header-span{
+    color: red;
+}
+.header-center{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+.header-center a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+   font-size: large;
+   
+}
+.header-center a:hover{
+    color:rgba(0, 0, 255, 0.736);
+}
+.header-right{
+    display: flex;
+    gap: 10px;
+}
+.header-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+    margin-top:13px;
+    padding:10px 20px;
+}
+.dark-toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.dark-toggle-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  background: none;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
