@@ -1,4 +1,3 @@
-import React from 'react'
 import './Contact.css'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
@@ -21,7 +20,6 @@ function Contact() {
             <a href="https://www.linkedin.com/in/surya0804/" target='_blank'><FaLinkedin/></a>
             <a href="https://github.com/Surya220804" target='_blank'><FaGithub/></a>
             <a href="mailto:kpsurya2004@gmail.com" target='_blank'><MdEmail/></a>
-
           </ul>
         </div>
        </form>

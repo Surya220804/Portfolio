@@ -2,7 +2,7 @@
 import { useState,useEffect } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 import Loading from './components/Loading/Loading';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <div className="App">
-      <BrowserRouter>  
+      <HashRouter>  
       <Header/>
         <Routes>
         <Route path='/' element={<Home/>}/>
@@ -34,7 +34,7 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
  
     </div>
   );
