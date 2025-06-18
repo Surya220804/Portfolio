@@ -41,3 +41,24 @@
     font-size: medium;
     color: blue;
 }
+@media (max-width: 1024px) {
+    .project-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .project-wrapper {
+        grid-template-columns: 1fr;
+        margin: 5% 2%;
+    }
+
+    .learn-more a {
+        top: 20px;
+    }
+
+    .technology-used {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

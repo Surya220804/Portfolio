@@ -6,28 +6,28 @@ const projectData=[
     name:'Portfolio pro',
     date:'22-08-2004',
     tech:['react','jsx','html'],
-    link:'htypjosjj',
+    link:'https://surya220804.github.io/Portfolio/#/',
     learn:'Learn more'
   },
   {
     name:'Portfolio pro',
     date:'22-08-2004',
     tech:['react'],
-    link:'htypjosjj',
+    // link:'https://surya220804.github.io/Portfolio/#/',
     learn:'Learn more'
   },
   {
     name:'Portfolio pro',
     date:'22-08-2004',
     tech:['react'],
-    link:'htypjosjj',
+    // link:'https://surya220804.github.io/Portfolio/#/',
     learn:'Learn more'
   },
   {
     name:'Portfolio pro',
     date:'22-08-2004',
     tech:['react'],
-    link:'htypjosjj',
+    // link:'https://surya220804.github.io/Portfolio/#/',
     learn:'Learn more'
   },
 ]

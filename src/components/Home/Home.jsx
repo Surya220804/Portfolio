@@ -11,7 +11,7 @@ function Home() {
     <div className="home-detail">
       <h1 className='introduction'>Hi,I'm Surya K P</h1>
       <h4 className='role'>I am a <span className="animated-text">Frontend Developer</span></h4>
-      <a href={suryaResume} target='blank'> <button className="download-resume"> Download Resume</button></a>
+      <a href={suryaResume} target='blank'> <button className="download-resume"> View Resume</button></a>
     </div>
    </div>
   )
