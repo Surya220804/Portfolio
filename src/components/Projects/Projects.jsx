@@ -10,10 +10,10 @@ const projectData=[
     learn:'Learn more'
   },
   {
-    name:'Portfolio pro',
+    name:'e-learning',
     date:'22-08-2004',
     tech:['react'],
-    // link:'https://surya220804.github.io/Portfolio/#/',
+    link:'https://surya220804.github.io/GuviClone/',
     learn:'Learn more'
   },
   {
