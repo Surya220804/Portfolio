@@ -4,23 +4,23 @@ import { ExternalLink } from 'lucide-react';
 const projectData=[
   {
     name:'Portfolio pro',
-    date:'22-08-2004',
-    tech:['react','jsx','html'],
+    date:'15-06-2025',
+    tech:['react','jsx','css'],
     link:'https://surya220804.github.io/Portfolio/#/',
     learn:'Learn more'
   },
   {
     name:'e-learning',
-    date:'22-08-2004',
-    tech:['react'],
+    date:'10-04-2025',
+    tech:['react','jsx','css'],
     link:'https://surya220804.github.io/GuviClone/',
     learn:'Learn more'
   },
   {
-    name:'Portfolio pro',
-    date:'22-08-2004',
+    name:'SocialMedia UI',
+    date:'20-05-2025',
     tech:['react'],
-    // link:'https://surya220804.github.io/Portfolio/#/',
+    link:'https://surya220804.github.io/social-media/',
     learn:'Learn more'
   },
   {
