@@ -17,7 +17,7 @@ function About() {
               <span className="about-detail">B.Sc. Physics Graduate passionate about web development, with practical experience in building projects using React and JavaScript.</span>
           </div>
               <div className="about-work">
-                 <p className="about-projects">10+ Projects</p>
+                 <p className="about-projects">5+ Projects</p>
                  <span className="underline"></span>
                  <p className="about-projects">Internship+Experience</p>
                  <span className="underline"></span>
@@ -42,5 +42,4 @@ function About() {
     </div>
   )
 }
-
 export default About

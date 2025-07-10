@@ -17,7 +17,7 @@ function Contact() {
         <button className="contact-btn">Send Message</button>
         <div className="contact-links">
           <ul>
-            <a href="https://www.linkedin.com/in/surya0804/" target='_blank'><FaLinkedin/></a>
+            <a href="https://www.linkedin.com/in/suryakpartha/" target='_blank'><FaLinkedin/></a>
             <a href="https://github.com/Surya220804" target='_blank'><FaGithub/></a>
             <a href="mailto:kpsurya2004@gmail.com" target='_blank'><MdEmail/></a>
           </ul>
